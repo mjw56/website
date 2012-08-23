@@ -8,22 +8,9 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
-
-	<script>
-	var kkeys = [], konami = "38,38,40,40";
-	$(document).keydown(function(e) {
-	  kkeys.push( e.keyCode );
-	  if ( kkeys.toString().indexOf( konami ) >= 0 ){
-	    $(document).unbind('keydown',arguments.callee);
-	    $.getScript('http://www.cornify.com/js/cornify.js',function(){
-	      cornify_add();
-	      $(document).keydown(cornify_add);
-	    });          
-	  }
-	});
-	</script>
 </head>
 <body>
+	<div id="main">
 		<div id="title">
 			<h1 class="first">Mike  </h1><h1 class="last"> Wilcox</h1>
 		</div>
@@ -36,7 +23,7 @@
 		</div>
 		<div id="info">
 			<h4 class="info">
-				Hey, I'm <span style="color: #00AA72;">Mike</span>. I'm currently a senior at <span style="color: #9C0606;">Rutgers</span> where I'm majoring in <span style="color: #0D58A6;">Computer Science</span>. <br>On the <span style="color: #404380;"> left</span> is some of my work. <br>Click <span style="color: #EE8D40;">below</span> to contact me. 
+				Hey, I'm <span style="color: #00AA72;">Mike</span>. I'm currently a senior at <span style="color: #9C0606;">Rutgers</span> where I'm majoring in <span style="color: #0D58A6;">Computer Science</span>. <br>On the left is some of my <span style="color: #404380;">work</span>. <br>Scroll below to <span style="color: #EE8D40;">contact</span> me. 
 			</h4>
 			<div class="push"></div>
 		</div>
@@ -59,23 +46,26 @@
 				$(this).animate({"padding-left": 0}, 100);
 			}
 		</script>
-		<div id="footerSlideContainer">
-			<div id="footerSlideButton"></div>
+	</div>
+		
+			
 				<div id="footerSlideContent">
 				<div id="footerSlideText">
 					<h3 class="footer">Want to know more about me?</h3>
-					<p><a href="mailto: mwilcox56@gmail.com">Email</a> me, I'm always down to chat.</p>
+					<p><a href="mailto: mwilcox56@gmail.com">Email</a> me, I'm always down to chat. <br><br>Also, I'm always hanging out in #chill_spot on irc.freenode.net. Use the <a href="http://mike.nodejitsu.com" target="_blank">Subway IRC Client</a> I'm hosting on Nodejitsu to come chat! There is a version of GitHub's hubot in the room at all times that is fun to interact with.</p>
 					<p>A brief rundown of some things I like to do:</p>
 					<ul>
-						<li>Write code in a diverse set of languages [ Java, Python, C, C++, Ruby, PHP, SQL, Javascript ]</li>
+						<li>Write clean, simple code in a diverse set of languages { Java, Python, C, C++, Ruby, PHP, SQL, Javascript }</li>
+						<li>Full Stack Development</li>
 						<li>Web Development</li>
+						<li>Self-learning</li>
 					</ul>
 				</div>
-			</div>
-		</div>
+			
+		
 		<script>
 		// Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
-		$(function() {
+		/*$(function() {
 			var open = false;
 			$('#footerSlideButton').click(function() {
 			if(open === false) {
@@ -88,7 +78,7 @@
 				open = false;
 			}
 			});		
-		});
+		});*/
 		</script>
 </body>
 </html>

@@ -1,0 +1,321 @@
+html, body {
+	height: 100%;
+}
+
+body{
+  /*background-color: #D8D8D8; */
+
+  background-image:url('../../img/gray_paper.jpg');
+  background-repeat:repeat-y repeat-x;
+}
+
+#title {
+	display: inline;
+	width: 100%;
+	padding-bottom: 10px;
+	float: left;
+}
+
+
+h1 {
+ font-size: 60px;
+ font-family: 'Crete Round', serif;
+ color: white;
+ letter-spacing: 0.2em;
+}
+
+h1.first {
+	font-size: 60px;
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: #00AA72;
+	letter-spacing: 0.3em;
+	float: left;
+	display: inline;
+	padding-left: 10px;
+}
+
+h1.last {
+	font-size: 60px;
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: #0D58A6;
+	letter-spacing: 0.3em;
+	float: left;
+	display: inline;
+}
+
+::selection {
+	background: #54FF16; /* Safari */
+	}
+::-moz-selection {
+	background: #54FF16; /* Firefox */
+}
+
+h3.links {
+	font-family: 'Crete Round', serif;
+	font-size: 36px;
+	border-bottom: 2px solid white;
+}
+
+h3 a {
+	text-decoration: none;
+	color: #002030;
+}
+
+h3 a:visited {
+	color: #002030;
+}
+
+#links {
+	width: 13%;
+	float: left;
+	display: inline;
+	padding-left: 15px;
+}
+
+#info {
+	padding-top: -10px;
+	float: left;
+	display: inline;
+	width: 50%;
+	margin-left: 340px;
+}
+
+h4.info {
+	font-family: 'Crete Round', serif;
+	font-size: 40px;
+	color: #002030;
+	padding-left: 10px;
+}
+
+.footer, .push {
+	clear: both;
+}
+
+#footerSlideContainer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	z-index: 99;
+}
+#footerSlideButton {
+	background: url(sliderButton.png) top left no-repeat transparent;
+	position: absolute;
+	top: -55px;
+	right: 20px;
+	width:50px;
+	height:50px;
+	border: none;
+	cursor: pointer;
+}
+	#footerSlideContent {
+	width: 100%;
+	height: 0px;
+	background: #243148;
+	color: #CCCCCC;
+	font-size: 0.8em;
+	border: none;
+	font-family: DejaVuSansBook, Sans-Serif;
+}
+#footerSlideText {
+	padding: 15px 10px 25px 25px;
+}
+
+h3.footer {
+	font-family: 'Crete Round', serif;
+	font-size: 30px;
+	color: #B4E985;
+}
+
+#footerSlideContainer p {
+	font-family: 'Crete Round', serif;
+	font-size: 20px;
+}
+
+#footerSlideContainer li {
+	font-family: 'Crete Round', serif;
+	font-size: 20px;
+	color: #EE8D40;
+}
+
+#footerSlideContainer a {
+	text-decoration: none;
+	font-family: 'Crete Round', serif;
+	font-size: 20px;
+	color: #EE8D40;
+}	
+
+#footerSlideContainer a:visited {
+	color: #EE8D40;
+}
+
+#resume {
+	background-color: white;
+}
+
+#resumeTitle {
+	width: 100%;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+#resumeTitle h1.titleName {
+	font-family: 'Rosarivo', serif;
+	font-size: 36px;
+	text-align: center;
+	color: black;
+}
+
+#title_sub {
+	width: 100%;
+}
+
+#address {
+	width: 30%;
+	padding: 0 0 5px 300px;
+	float: left;
+	display: inline;
+}
+
+#address p {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 16px;
+	color: black;
+	margin: 3px;
+	padding: 0;
+}
+
+#contact {
+	width: 30%;
+	float: left;
+	display: inline;
+	padding-left: 140px;
+}
+
+#contact p {
+	font-family: 'Inconsolata', sans-serif;
+        font-size: 16px;
+        color: black;
+        margin: 3px;
+        padding: 0;
+
+}
+
+#objective {
+	width: 100%;
+	float: left;
+	padding: 60px 0 15px 120px;
+}
+
+#objective h1 {
+	font-family: 'Rosarivo', serif;
+        font-size: 20px;
+}
+
+#objective p {
+	font-family: 'Inconsolata', sans-serif;
+        font-size: 16px;
+        color: black;
+        margin: 3px;
+        padding: 0;
+	float: left;
+	display: inline;
+}
+
+#objective p.objective_title {
+	font-family: 'Inconsolata', serif;
+	font-size: 20px;
+	padding-right: 45px;
+}
+
+#resume_cell {
+        width: 100%;
+        float: left;
+        padding: 20px 0 15px 120px;
+}
+
+#resume_cell_ref {
+        width: 100%;
+        float: left;
+        padding: 20px 0 15px 120px;
+}
+
+#resume_cell h1 {
+        font-family: 'Rosarivo', serif;
+        font-size: 20px;
+}
+
+#resume_cell p {
+        font-family: 'Inconsolata', sans-serif;
+        font-size: 16px;
+        color: black;
+        margin: 3px;
+        float: left;
+        display: inline;
+}
+
+#resume_cell p.cell_title {
+        font-family: 'Inconsolata', serif;
+        font-size: 20px;
+        padding-right: 45px;
+}
+
+#resume_cell p.cell_title_work {
+        font-family: 'Inconsolata', serif;
+        font-size: 20px;
+}
+
+#resume_cell p.work {
+	padding-left: 140px;
+	padding-top: 15px;
+}
+
+#resume_cell p.work_title {
+        padding-left: 140px;
+        padding-top: 30px;
+}
+
+
+#resume_cell_ref h1 {
+        font-family: 'Rosarivo', serif;
+        font-size: 20px;
+}
+
+#resume_cell_ref p {
+        font-family: 'Inconsolata', sans-serif;
+        font-size: 16px;
+        color: black;
+        margin: 3px;
+        float: left;
+        display: inline;
+}
+
+#resume_cell_ref p.cell_title {
+        font-family: 'Inconsolata', serif;
+        font-size: 20px;
+        padding-right: 45px;
+}
+
+#resume_cell_ref p.cell_title_work {
+        font-family: 'Inconsolata', serif;
+        font-size: 20px;
+}
+
+#resume_cell_ref p.work {
+        padding-left: 140px;
+        padding-top: 15px;
+}
+
+#resume_cell_ref p.work_title {
+        padding-left: 140px;
+        padding-top: 30px;
+}
+
+#resume_cell p.reference_title {
+	padding-left: 40px;
+}
+
+#resume_cell p.reference_email {
+	padding-left: 40px;
+}

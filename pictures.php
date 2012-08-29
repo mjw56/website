@@ -16,11 +16,9 @@
 			<a href="http://mikewilcox.nfshost.com/"><h1 class="first">Mike  </h1><h1 class="last"> Wilcox</h1></a>
 		</div>
 
-		<center><h3 class="pics_title">Phillies 2008 World Series Game 5</h3></center>
-		<center><img class="pics" src="../../img/ws1.jpg" /></center>
-		<br>
-		<center><img class="pics" src="../../img/ws2.jpg" /></center>
-		<br>
+		<h3 class="pics_title">Phillies 2008 World Series Game 5</h3>
+		<img class="pics" src="../../img/ws1.jpg" />
+		<img class="pics" src="../../img/ws2.jpg" />
 	</div>
 </body>
 </html>

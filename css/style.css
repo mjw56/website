@@ -22,6 +22,7 @@ body {
 
 h3.pics_title {
 	color: #002030;
+	padding-left: 50px;
 }
 
 #title {
@@ -63,6 +64,8 @@ h1.first a:visited {
 	width: 50%;
 	height: 50%;
 	border: 12px solid #002030;
+	margin-left: 50px;
+	margin-bottom: 15px;
 }
 h1.last {
 	font-size: 60px;

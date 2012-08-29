@@ -11,25 +11,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	  <script>
-	    window.fbAsyncInit = function() {
-	      FB.init({
-		appId      : '410400315689956', // App ID
-		status     : true, // check login status
-		cookie     : true, // enable cookies to allow the server to access the session
-		xfbml      : true  // parse XFBML
-	      });
-	    };
-
-	    // Load the SDK Asynchronously
-	    (function(d){
-	      var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-	      js = d.createElement('script'); js.id = id; js.async = true;
-	      js.src = "//connect.facebook.net/en_US/all.js";
-	      d.getElementsByTagName('head')[0].appendChild(js);
-	    }(document));
-	  </script>
-
 	<div id="main">
 		<div id="title">
 			<a href="http://mikewilcox.nfshost.com/"><h1 class="first">Mike  </h1><h1 class="last"> Wilcox</h1></a>
@@ -85,24 +66,5 @@
 						<li>2009 and 2011 Fantasy Football Champ</li>
 					</ul>
 				</div>
-			
-		
-		<script>
-		// Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
-		/*$(function() {
-			var open = false;
-			$('#footerSlideButton').click(function() {
-			if(open === false) {
-				$('#footerSlideContent').animate({ height: '300px' });
-				$(this).css('backgroundPosition', 'bottom left');
-				open = true;
-			} else {
-				$('#footerSlideContent').animate({ height: '0px' });
-				$(this).css('backgroundPosition', 'top left');
-				open = false;
-			}
-			});		
-		});*/
-		</script>
 </body>
 </html>

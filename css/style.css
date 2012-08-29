@@ -15,6 +15,15 @@ body {
 	width: 100%;
 }
 
+#pics {
+        background-image:url('../../img/gray_paper.jpg');
+        background-repeat:repeat-y repeat-x;
+}
+
+h3.pics_title {
+	color: #002030;
+}
+
 #title {
 	display: inline;
 	width: 100%;
@@ -41,6 +50,20 @@ h1.first {
 	padding-left: 10px;
 }
 
+h1.first a {
+	text-decoration: none;
+	color: #00AA72;
+}
+
+h1.first a:visited {
+	color: #00AA72;
+}
+
+.pics {
+	width: 50%;
+	height: 50%;
+	border: 12px solid #002030;
+}
 h1.last {
 	font-size: 60px;
 	font-family: 'Crete Round', serif;
@@ -49,6 +72,15 @@ h1.last {
 	letter-spacing: 0.3em;
 	float: left;
 	display: inline;
+}
+
+h1.last a {
+	text-decoration: none;
+	color: #0D58A6;
+}
+
+h1.last a:visited {
+	color: #0D58A6;
 }
 
 ::selection {
